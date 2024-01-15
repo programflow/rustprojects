@@ -1,0 +1,11 @@
+[package]
+edition = "2021"
+name = "gigasecond"
+version = "2.0.0"
+
+[dependencies]
+time = "0.3"
+
+[[bin]]
+name = "my_binary"
+path = "test.rs"
